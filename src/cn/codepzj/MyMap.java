@@ -28,15 +28,15 @@ public class MyMap {
 
     int a = 0;
 
-    public static int OverrideFunc() {
+    public static int OverrideFunc(int a, int b) {
         return 0;
     }
 
-    public static int OverrideFunc(int n) {
+    public static int OverrideFunc(double a,double b) {
         return 0;
     }
 
-    public static int OverrideFunc(String s) {
+    public static int OverrideFunc(float a,float b) {
         return 0;
     }
 }
