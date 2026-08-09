@@ -29,7 +29,7 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "name: " + name + " age: " + age + " color: " + color;
+        return "Dog [name=" + name + ", age=" + age + ", color=" + color + ", hobby=" + hobby + "]";
     }
 
     public static void eatZone() {
